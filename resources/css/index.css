@@ -1,11 +1,21 @@
-* {
-  font-family: Helvetica, Arial, sans-serif;
+/* Universal Styles */
+
+html {
+  font-size: 18px;
 }
- 
- 
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1 {
   color: hotpink;
-  font-family: Arial;
+  background-color: plum;
   text-align: center;
 }
  
@@ -14,8 +24,9 @@ p,
 li {
   font-size: 18px;
 }
- 
- 
-a {
-  text-decoration: none;
+
+#tagline {
+  font-size: 20px;
 }
+ 
+
